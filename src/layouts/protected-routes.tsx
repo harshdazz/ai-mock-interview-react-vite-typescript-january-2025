@@ -1,6 +1,6 @@
 import LoaderPage from "@/Routes/loader-page"
-import { useAuth } from "@clerk/clerk-react/"
-import type { Navigate} from "react-router-dom"
+import { useAuth } from "@clerk/clerk-react"
+import { Navigate } from "react-router-dom"
 
 const ProtectRoutes = ({ children } : { children: React.ReactNode}) => {
 
